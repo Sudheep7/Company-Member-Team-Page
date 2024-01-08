@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Use 100% of the viewport height */
+    margin: 0;
+}
+h1{
+    width: 180px;
+    height: 30px;
+    margin: 0 auto 15px;
+    padding: 5px;
+    border-radius: 7px;
+    background: rgba(169, 33, 169, 0.773);
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+h6{
+    width: 200px;
+    height: 25px;
+    margin: 0 auto 15px;
+    padding: 5px;
+    border-radius: 7px;
+    background: rgba(169, 33, 169, 0.773);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+p{
+    font-size: 15px;
+}
+.p1{
+    font-size: 14px;
+    color: rgba(169, 33, 169, 0.773);
+
+
+
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px; /* Adjust the margin as needed */
+}
+
+.circle-card {
+    width: 90px;
+    height:90px;
+    border-radius: 50%; /* Create a circle by setting border-radius to 50% */
+    overflow: hidden; /* Clip the content to fit within the circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(201,196,196);
+   margin: 0 2px;
+
+}
+
+.card-image {
+    width: 100%;
+    height: 120%;
+    object-fit: cover; /* Maintain the aspect ratio and cover the entire circle */
+}
+
+.card-content {
+    text-align: center;
+    padding-top: 10px; /* Adjust the padding as needed */
+}
+
+h2 {
+    margin-bottom: 100px;
+}
+
+.name {
+    font-size: 12px;
+    text-align: center; /* Center the text */
+    margin: 10px auto; /* Updated margin to center the text */
+}
+.founder-container {
+    text-align: center;
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+
+
+h5{
+    color: black;
+}
+h4{
+    font-size: 12px;
+    font-style: times oblique;
+}
+.fou{
+    font-size: 11px;
+    font-style: italic;
+    color: rgb(244, 87, 244);
+}
+.bookmark {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.bookmark img {
+    width: 95px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    transform: rotate(90deg);
+    padding-bottom: 30px;
+    margin-top: -50px;
+}
+
+
+
+.outlined-text {
+    font-size: 24px;
+    padding: 30px;
+    margin: auto;
+    border: 1px solid #000; /* Width and color of the border */
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background-color: rgb(243, 226, 226);
+}
