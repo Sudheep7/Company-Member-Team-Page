@@ -8,7 +8,7 @@ body{
     font-family: 'Poppins', sans-serif;display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Use 100% of the viewport height */
+    height: 100vh; 
     margin: 0;
 }
 h1{
@@ -50,14 +50,14 @@ p{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px; /* Adjust the margin as needed */
+    margin-top: 30px; 
 }
 
 .circle-card {
     width: 90px;
     height:90px;
-    border-radius: 50%; /* Create a circle by setting border-radius to 50% */
-    overflow: hidden; /* Clip the content to fit within the circle */
+    border-radius: 50%; 
+    overflow: hidden; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: rgb(201,196,196);
    margin: 0 2px;
@@ -67,12 +67,12 @@ p{
 .card-image {
     width: 100%;
     height: 120%;
-    object-fit: cover; /* Maintain the aspect ratio and cover the entire circle */
+    object-fit: cover; 
 }
 
 .card-content {
     text-align: center;
-    padding-top: 10px; /* Adjust the padding as needed */
+    padding-top: 10px; 
 }
 
 h2 {
@@ -81,12 +81,12 @@ h2 {
 
 .name {
     font-size: 12px;
-    text-align: center; /* Center the text */
-    margin: 10px auto; /* Updated margin to center the text */
+    text-align: center; 
+    margin: 10px auto; 
 }
 .founder-container {
     text-align: center;
-    margin-top: 10px; /* Adjust the margin as needed */
+    margin-top: 10px; 
 }
 
 
@@ -110,8 +110,8 @@ h4{
 }
 
 .bookmark img {
-    width: 95px; /* Adjust the width as needed */
-    height: auto; /* Maintain the aspect ratio */
+    width: 95px; 
+    height: auto;
     transform: rotate(90deg);
     padding-bottom: 30px;
     margin-top: -50px;
@@ -123,7 +123,7 @@ h4{
     font-size: 24px;
     padding: 30px;
     margin: auto;
-    border: 1px solid #000; /* Width and color of the border */
+    border: 1px solid #000;
     display: inline-block;
     text-align: center;
     position: relative;
